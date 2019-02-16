@@ -20,21 +20,21 @@
     "promise"
   ],
   "devDependencies": {
-    "babel": "^4.7.16",
-    "babel-eslint": "^2.0.2",
+    "babel": "^5.8.38",
+    "babel-eslint": "^10.0.1",
     "babel-runtime": "^4.7.16",
     "chai": "^2.1.2",
-    "gulp": "^3.8.11",
-    "gulp-babel": "^4.0.0",
-    "gulp-eslint": "^0.7.0",
-    "gulp-mocha": "^2.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-mocha": "^6.0.0",
     "gulp-sourcemaps": "^1.5.1",
-    "mocha": "^2.2.1",
-    "nock": "^1.2.1"
+    "mocha": "^5.2.0",
+    "nock": "^10.0.6"
   },
   "dependencies": {
-    "lodash": "^3.5.0",
+    "lodash": "^4.17.11",
     "request": "^2.53.0",
-    "tough-cookie": "^0.12.1"
+    "tough-cookie": "^3.0.1"
   }
 }
