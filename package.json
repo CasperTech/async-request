@@ -20,7 +20,10 @@
     "promise"
   ],
   "devDependencies": {
-    "babel": "^5.8.38",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "acorn": "^6.1.0",
+    "babel": "^6.23.0",
     "babel-eslint": "^10.0.1",
     "babel-runtime": "^4.7.16",
     "chai": "^2.1.2",
