@@ -12,7 +12,7 @@ Arequest = (defaultOptions) => {
     Arequest.validateOptions(defaultOptions);
 
     arequest = async (url, options) => {
-        return new Promise((resolve, reject) => {
+        return new Promise((resolve) => {
             Arequest.validateOptions(options);
 
             options = _.assign({url: url}, options, defaultOptions);
@@ -21,8 +21,7 @@ Arequest = (defaultOptions) => {
 
             request(options, (error, response) => {
                 if (error) {
-                    reject(error);
-                    return;
+                    throw new Error(error);
                 }
 
                 resolve({
